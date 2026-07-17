@@ -13,6 +13,7 @@
     "@studio-freight/react-lenis": "^0.0.47",
     "@tailwindcss/vite": "^4.3.3",
     "lucide-react": "^1.24.0",
+    "papaparse": "^5.5.4",
     "react": "^19.2.7",
     "react-dom": "^19.2.7",
     "react-router-dom": "^7.18.1",

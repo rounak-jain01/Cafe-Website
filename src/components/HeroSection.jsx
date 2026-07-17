@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { ArrowRight, Coffee } from 'lucide-react'; // Premium icons
+import { ArrowRight, Coffee, Phone } from 'lucide-react'; // Phone icon add kiya hai
 
 export default function HeroSection() {
   return (
@@ -50,10 +50,14 @@ export default function HeroSection() {
             <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
           </Link>
 
-          {/* Secondary Button -> Scroll to Location (Baad mein banayenge) */}
-          <button className="flex items-center gap-2 bg-white/10 hover:bg-white/20 backdrop-blur-md border border-white/30 text-white font-bold text-lg px-8 py-4 rounded-full transition-all duration-300 w-full sm:w-auto justify-center">
-            Find Us
-          </button>
+          {/* Book A Table Button -> Seedha Call Lagayega */}
+          <a 
+            href="tel:+919926850762"
+            className="flex items-center gap-2 bg-white/10 hover:bg-white/20 backdrop-blur-md border border-white/30 text-white font-bold text-lg px-8 py-4 rounded-full transition-all duration-300 hover:scale-105 w-full sm:w-auto justify-center"
+          >
+            <Phone className="w-5 h-5" />
+            <span>Book a Table</span>
+          </a>
           
         </div>
       </div>
